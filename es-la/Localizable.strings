@@ -102,27 +102,27 @@
 "KG_TAP_TO_CANCEL"                                      = "(Presione para cancelar)";
 "KG_TAP_WHEN_READY"                                     = "(Presione cuando este listo)";
 "KG_COVER"                                              = "Portada…";
-"KG_ACCESSING_STORE"                                    = "Accessing store…";
-"KG_DOWNLOADING"                                        = "Downloading…";
-"KG_AGAIN_WHEN_DONE"                                    = "Tap again when done";
-"KG_OPEN_IN"                                            = "Open in…";
+"KG_ACCESSING_STORE"                                    = "Accediendo la tienda…";
+"KG_DOWNLOADING"                                        = "Descargando…";
+"KG_AGAIN_WHEN_DONE"                                    = "Presione nuevamente cuando este listo";
+"KG_OPEN_IN"                                            = "Abrir en…";
 "KG_X_OF_Y"                                             = "%lu of %lu"; // Careful, parameters here.
-"KG_ON"                                                 = "On";
-"KG_OFF"                                                = "Off";
-"KG_ENABLED"                                            = "Enabled";
-"KG_DISABLED"                                           = "Disabled";
+"KG_ON"                                                 = "Encendido";
+"KG_OFF"                                                = "Apagado";
+"KG_ENABLED"                                            = "Habilitado";
+"KG_DISABLED"                                           = "Deshabilitado";
 "KG_OPEN_QUOTE"                                         = "“";
 "KG_CLOSE_QUOTE"                                        = "”";
-"KG_ADD"                                                = "Add";
-"KG_RENAME"                                             = "Rename";
-"KG_EDIT"                                               = "Edit";
-"KG_GOT_IT"                                             = "Got it";
+"KG_ADD"                                                = "Agregar";
+"KG_RENAME"                                             = "Renombrar";
+"KG_EDIT"                                               = "Editar";
+"KG_GOT_IT"                                             = "Lo tengo";
 "KG_OOPS"                                               = "Oops";
-"KG_COPY"                                               = "Copy";
-"KG_COPIED"                                             = "Copied";
-"KG_INFO"                                               = "Info";
+"KG_COPY"                                               = "Copiar";
+"KG_COPIED"                                             = "Copiado";
+"KG_INFO"                                               = "Información";
 "KG_TIP"                                                = "Tip";
-"KG_DO_NOT_QUIT"                                        = "Do not quit Marvin";
+"KG_DO_NOT_QUIT"                                        = "No cerra Marvin";
 "KG_APP_STORE"                                          = "App Store";
 
 // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -138,14 +138,14 @@
 "DISCARD_CHANGES"                                       = "Descartar cambios";
 "SAVE_CHANGES"                                          = "Guardar cambios";
 
-"ICLOUD_NOT_AVAILABLE"                                  = "You are not logged into iCloud on this device. You may log in to your account from the settings app on your device.";
+"ICLOUD_NOT_AVAILABLE"                                  = "Usted no ha iniciado sesión en iCloud en este equipo. Puede iniciar sesión en su cuenta desde los ajustes de su dispositivo.";
 
 "DATE_TODAY"                                            = "Hoy";
 "DATE_YESTERDAY"                                        = "Ayer";
 "DATE_THIS_WEEK"                                        = "Esta semamá";
 "DATE_LAST_WEEK"                                        = "Semana pasada";
 "DATE_THIS_MONTH"                                       = "Este mes";
-"DATE_LAST_MONTH_OR_OLDER"                              = "%lu days ago";
+"DATE_LAST_MONTH_OR_OLDER"                              = "%lu Dias de antiguedad";
 
 // Lower case version of above - use lowercase as appropriate for the language in question.
 "DATE_TODAY_LOCASE"                                     = "hoy";
@@ -156,33 +156,33 @@
 
 "MSGBOX_IMPORT_CONFIRM_BY_FILENAME"                     = "Importar %@?"; // %@ = filename.
 
-"MSGBOX_FILE_1_MULTI_IMPORT_FAILED"                     = "1 file couldn’t be imported because it is damaged or encrypted.";
-"MSGBOX_FILE_X_MULTI_IMPORT_FAILED"                     = "%lu files couldn’t be imported because they are damaged or encrypted.";
+"MSGBOX_FILE_1_MULTI_IMPORT_FAILED"                     = "1 archivo no pudo ser importado porque esta dañado o encriptado.";
+"MSGBOX_FILE_X_MULTI_IMPORT_FAILED"                     = "%lu archivos no pudieron ser importados porque estan dañados o encriptados.";
 
-"MSGBOX_FILE_X_MULTI_IMPORT_FAILED_DELETE"              = "%lu file(s) couldn’t be imported because they are damaged or encrypted. Consider removing them from this device not to see this error again. A list of failed files has been saved in /Documents/Logs/failed.txt";
-"MSGBOX_NO_APP_FOR_URL"                                 = "You don’t have any app installed that can execute this command.";
-"MSGBOX_NO_APP_FOR_DOCUMENT"                            = "You don’t have any app installed that can open a document of this type.";
-"MSGBOX_NO_APP_FOR_DICTIONARY"                          = "The dictionary app you specified in general settings isn’t installed on this device.";
+"MSGBOX_FILE_X_MULTI_IMPORT_FAILED_DELETE"              = "%lu archivo(s) no pudo ser importado porque esta dañado o encriptado. Considere removerlo de el dispositivo para no ver este error nuevamenteC. Una lista de archivos dañados se a creado en /Documents/Logs/failed.txt";
+"MSGBOX_NO_APP_FOR_URL"                                 = "No tiene instalada ninguna aplicación que pueda ejecutar este comando.";
+"MSGBOX_NO_APP_FOR_DOCUMENT"                            = "No tiene instalada ninguna aplicacion para abrir este tipo de archivos.";
+"MSGBOX_NO_APP_FOR_DICTIONARY"                          = "La aplicación de diccionario que seleccionó no esta instalada en el dispositivo.";
 
-"MSGBOX_BOOK_EXISTS"                                    = "This book is already in your library.";
-"MSGBOX_BOOK_WITH_FILE_EXISTS"                          = "A book with the specified filename already exists in your library.";
-"MSGBOX_BOOK_IMPORTED"                                  = "A book was added to your library.";
-"MSGBOX_BOOK_IMPORT_FAILED"                             = "Your book couldn’t be imported because it is damaged or encrypted.";
-"MSGBOX_BOOK_IMPORT_FAILED_TOO_BIG"                     = "Your book couldn’t be imported because the file is too large and you have ‘large file skipping’ enabled in settings.";
-"MSGBOX_BOOK_NOT_SUPPORTED_TYPE"                        = "Marvin doesn’t support this kind of document (%@)."; // Document type.
+"MSGBOX_BOOK_EXISTS"                                    = "Este libro ya esta en su librero.";
+"MSGBOX_BOOK_WITH_FILE_EXISTS"                          = "Un libro con el mismo nombre ya existe en su librero.";
+"MSGBOX_BOOK_IMPORTED"                                  = "Un libro fue agregado a su librero.";
+"MSGBOX_BOOK_IMPORT_FAILED"                             = "Su libro no pudo ser importado porque esta dañado o encriptado.";
+"MSGBOX_BOOK_IMPORT_FAILED_TOO_BIG"                     = "Su libro no pudo ser importado porque el archivo es muy grande y usted tiene ‘evitar archivos muy pesados’ activado en las configuraciones.";
+"MSGBOX_BOOK_NOT_SUPPORTED_TYPE"                        = "Marvin no acepta este tipo de documento (%@)."; // Document type.
 
-"UNNAMED_CHAPTER_TO_UNTITLED_SECTION_NUMBER"            = "Untitled section %lu"; // %lu = section number.
-"UNNAMED_CHAPTER_TO_UNTITLED_SECTION"                   = "Untitled section";
+"UNNAMED_CHAPTER_TO_UNTITLED_SECTION_NUMBER"            = "Selección sin titulo %lu"; // %lu = section number.
+"UNNAMED_CHAPTER_TO_UNTITLED_SECTION"                   = "Selección sin titulo";
 
-"COLOUR_RED"                                            = "Red";
-"COLOUR_YELLOW"                                         = "Yellow";
-"COLOUR_PINK"                                           = "Pink";
-"COLOUR_BLUE"                                           = "Blue";
-"COLOUR_GREEN"                                          = "Green";
-"COLOUR_PURPLE"                                         = "Purple";
-"COLOUR_ORANGE"                                         = "Orange";
+"COLOUR_RED"                                            = "Rojo";
+"COLOUR_YELLOW"                                         = "Amarillo";
+"COLOUR_PINK"                                           = "Rosa";
+"COLOUR_BLUE"                                           = "Azul";
+"COLOUR_GREEN"                                          = "Verde";
+"COLOUR_PURPLE"                                         = "Purpura";
+"COLOUR_ORANGE"                                         = "Anaranjado";
 
-"UNKNOWN_AUTHOR"                                        = "Unknown author";
+"UNKNOWN_AUTHOR"                                        = "Autor desconocido";
 
 // The tip to show when speed scrubbing.
 "SCRUBBING_SPEED_TIP"                                   = "Scrubbing at %.0f%% speed."; // %.1f = speed.
@@ -194,7 +194,7 @@
 "TITLE_SORT_PREFIXES_DE"                                = ""; // Comma separated - NO SPACES!
 "TITLE_SORT_PREFIXES_IT"                                = ""; // Comma separated - NO SPACES!
 "TITLE_SORT_PREFIXES_FR"                                = ""; // Comma separated - NO SPACES!
-"TITLE_SORT_PREFIXES_ES"                                = ""; // Comma separated - NO SPACES!
+"TITLE_SORT_PREFIXES_ES"                                = "Un,Una,El,La"; // Comma separated - NO SPACES!
 // and so on...
 
 // Suffix and prefix contractions for dictionary normalisation.
@@ -217,36 +217,36 @@
 // EMAIL
 // ********************************************************************************
 
-"EMAIL_SUBJECT"                                         = "Marvin for iOS";
+"EMAIL_SUBJECT"                                         = "Marvin para iOS";
 
 // Careful: the following are HTML fragments. KG_LINK x2.
-"EMAIL_BOOK_BODY"                                       = "%@ by %@<br/></br/>Sent via <a href='http://www.appstafarian.com?src=m3appmail'>Marvin for iOS</a>"; // First %@ = book title, second %@ = author.
-"EMAIL_BOOK_WITH_DESCRIPTION_BODY"                      = "%@ by %@<br/></br/><div>%@</div><br/></br/>Sent via <a href='http://www.appstafarian.com?src=m3appmail'>Marvin for iOS</a>"; // First %@ = book title, second %@ = author, third %@ = description.
+"EMAIL_BOOK_BODY"                                       = "%@ by %@<br/></br/>Enviado via <a href='http://www.appstafarian.com?src=m3appmail'>Marvin para iOS</a>"; // First %@ = book title, second %@ = author.
+"EMAIL_BOOK_WITH_DESCRIPTION_BODY"                      = "%@ by %@<br/></br/><div>%@</div><br/></br/>Enviado via <a href='http://www.appstafarian.com?src=m3appmail'>Marvin para iOS</a>"; // First %@ = book title, second %@ = author, third %@ = description.
 
 // ********************************************************************************
 // MESSAGE BOXES
 // ********************************************************************************
 
-"MSGBOX_NO_EMAIL_ACCOUNTS"                              = "You don’t have any email accounts set up.";
-"MSGBOX_RATE_TITLE"                                     = "Recommend and rate Marvin";
-"MSGBOX_RATE_MESSAGE"                                   = "When the App Store opens, please tap ‘Reviews’ then ‘Write A Review’. Thank you for your kindness!";
+"MSGBOX_NO_EMAIL_ACCOUNTS"                              = "No tiene ninguna cuenta de email configuarada.";
+"MSGBOX_RATE_TITLE"                                     = "Recomienda y califica Marvin";
+"MSGBOX_RATE_MESSAGE"                                   = "Cuando la App Store se abrá, por favor selecciona ‘Reseñas’ entonces ‘Escribir una reseña’. Gracias por tu atención!";
 
 // ********************************************************************************
 // KEYBOARD SHORTCUTS
 // ********************************************************************************
 
-"KEYBOARD_SHORTCUT_MAIN_MENU"                           = "Main menu";
-"KEYBOARD_SHORTCUT_MY_LIBRARY_MENU"                     = "My library menu";
-"KEYBOARD_SHORTCUT_FIND"                                = "Find";
-"KEYBOARD_SHORTCUT_NEW"                                 = "New";
-"KEYBOARD_SHORTCUT_CANCEL"                              = "Cancel";
-"KEYBOARD_SHORTCUT_CLOSE"                               = "Close";
-"KEYBOARD_SHORTCUT_SAVE"                                = "Save";
-"KEYBOARD_SHORTCUT_FAVOURITES"                          = "Favorites";
-"KEYBOARD_SHORTCUT_ENTER_ADDRESS"                       = "Enter address";
-"KEYBOARD_SHORTCUT_NAVIGATE_BACK"                       = "Navigate back";
-"KEYBOARD_SHORTCUT_NAVIGATE_FORWARD"                    = "Navigate forward";
-"KEYBOARD_SHORTCUT_BACK"                                = "Back";
+"KEYBOARD_SHORTCUT_MAIN_MENU"                           = "Menú principal";
+"KEYBOARD_SHORTCUT_MY_LIBRARY_MENU"                     = "Menú de mi libreria";
+"KEYBOARD_SHORTCUT_FIND"                                = "Buscar";
+"KEYBOARD_SHORTCUT_NEW"                                 = "Nuevo";
+"KEYBOARD_SHORTCUT_CANCEL"                              = "Cancelar";
+"KEYBOARD_SHORTCUT_CLOSE"                               = "Cerrar";
+"KEYBOARD_SHORTCUT_SAVE"                                = "Guardar";
+"KEYBOARD_SHORTCUT_FAVOURITES"                          = "Favoritos";
+"KEYBOARD_SHORTCUT_ENTER_ADDRESS"                       = "Escribir dirección";
+"KEYBOARD_SHORTCUT_NAVIGATE_BACK"                       = "Navegar de regreso";
+"KEYBOARD_SHORTCUT_NAVIGATE_FORWARD"                    = "Navegar adelante";
+"KEYBOARD_SHORTCUT_BACK"                                = "Regreso";
 "KEYBOARD_SHORTCUT_SCROLL_DOWN"                         = "Scroll down";
 "KEYBOARD_SHORTCUT_SCROLL_UP"                           = "Scroll up";
 "KEYBOARD_SHORTCUT_SCROLL_BOTTOM"                       = "Scroll bottom";
